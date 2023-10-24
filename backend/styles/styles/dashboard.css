@@ -1,0 +1,60 @@
+.head{
+    height:10vh;
+    }
+    .nadpis{
+        font-size:1em;
+    }
+    .left_column{
+        width:80vw;
+        height:80vh;
+        background-color:green;
+    }
+    .right_column{
+        width:20vw;
+        height:80vh;
+        background-color:red;
+    }
+    .content{
+        display:flex;
+        flex-direction: row;
+    }
+    .container{
+      
+        background-color:blue;
+       
+        
+    }
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .foot{
+        height:10vh;
+        background-color:brown;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .btn{
+        width:80%;
+      height:13%;
+      background: linear-gradient(98deg , white 70%,  purple 20%);
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      margin-bottom:3px;
+    }
+    .btn:after{
+       content: "";
+     background-color: black;
+     height: 10.5%;
+     width: 0.2%;
+     transform: skew(-8deg);
+     display: block; 
+      position:fixed;
+     right:8.6%;
+    }
